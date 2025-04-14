@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Taa'wun - Donate</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Taa'wun</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="impact.html">Impact</a></li>
+        <li><a href="donate.html">Donate</a></li>
+        <li><a href="get-food.html">Get Food</a></li>
+        <li><a href="chat-ai.html">Chat with AI</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="donate">
+    <h2 class="fade-in">Donate Food</h2>
+    <p class="fade-in">Share your surplus food with those in need.</p>
+    <form id="donate-form" class="slide-in-right">
+      <div class="form-group">
+        <label for="food-type">Food Type:</label>
+        <input type="text" id="food-type" name="food-type" placeholder="e.g., Cooked meals, fruits, vegetables" required>
+      </div>
+      <div class="form-group">
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" placeholder="e.g., 10 meals or 5 kg" required>
+      </div>
+      <div class="form-group">
+        <label for="Expiry date">Expiry date:</label>
+        <input type="number" id="Expiry date" name="Expiry date" placeholder="e.g., in 3 or 5 days" required>
+      </div>
+      <div class="form-group">
+        <label for="location">Location:</label>
+        <input type="text" id="location" name="location" placeholder="e.g., Riyadh, Saudi Arabia" required>
+      </div>
+      <div class="form-group">
+        <label for="food-image">Upload Food Image:</label>
+        <input type="file" id="food-image" name="food-image" accept="image/*" required>
+        <div id="image-preview" class="image-preview">
+          <p>No image selected.</p>
+        </div>
+      </div>
+      <button type="submit" class="btn">Donate Now</button>
+    </form>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <div class="newsletter">
+        <h3>Subscribe to our newsletter</h3>
+        <form>
+          <input type="email" placeholder="Enter your email">
+          <button type="submit" class="btn">Subscribe</button>
+        </form>
+      </div>
+      <div class="footer-links">
+        <div class="column">
+          <h4>Product</h4>
+          <ul>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Pricing</a></li>
+          </ul>
+        </div>
+        <div class="column">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">User Guides</a></li>
+            <li><a href="#">Webinars</a></li>
+          </ul>
+        </div>
+        <div class="column">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="column">
+          <h4>Plans & Pricing</h4>
+          <ul>
+            <li><a href="#">Personal</a></li>
+            <li><a href="#">Startup</a></li>
+            <li><a href="#">Organization</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 Taa'wun. All rights reserved. • <a href="#">Privacy</a> • <a href="#">Terms</a> • <a href="#">Sitemap</a></p>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
